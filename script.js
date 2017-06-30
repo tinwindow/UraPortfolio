@@ -1,4 +1,4 @@
-function myFunction() {
+function myFunction1() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -7,12 +7,10 @@ function myFunction() {
     }
 
 
-function doStuff()
-      {
-        var nameElement = document.getElementById("red pill");
-        var theName = nameElement.value;
-        document.getElementById("thanks for coming").innerHTML + "!!!!!" = 
-      }
+function myFunction() {
+    var x = document.getElementById("birthyear");
+    document.getElementById().innerHTML = "!!!!!"
+}
 
 
 
