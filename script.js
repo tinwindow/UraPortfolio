@@ -1,17 +1,9 @@
-function myFunction1() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+<script>
 
-
-function myFunction() {
-    var x = document.getElementById("birthyear");
-    document.getElementById().innerHTML = "!!!!!"
-}
-
-
+    function clickEvent() {
+      var userInput = document.getElementById('fname').value;
+      alert(userInput + ', Talk to you soon!!');
+    };
+    </script>
 
  
