@@ -13,8 +13,12 @@ h1 {
     text-shadow: 4px 3px 0px #fff, 6px 4px 0px rgba(0,0,0,0.15);
 }
 
+h4 { 
+	font-weight:medium; 
+}
+
 .div-bg {
-	background: url('Images/Traintracks.jpg');
+	background: url('Images/newbackground.jpg');
 	width: 1255px;
 	height: 1000px;
 	background-size: cover;
@@ -121,6 +125,8 @@ input[type=submit]:hover {
 .topnav .icon {
   display: none;
 }
+
+
 
 
 
