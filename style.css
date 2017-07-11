@@ -5,12 +5,12 @@
 
 body{
 	background-color: rgba(51,255,212, 0.5);
-	font-family: 'Roboto Mono', monospace;
-	
+	font-family: 'Roboto Mono', monospace;	
 }
 
 h1 {
     text-shadow: 4px 3px 0px #fff, 6px 4px 0px rgba(0,0,0,0.15);
+    text-align: left;
 }
 
 h4 { 
@@ -99,14 +99,16 @@ input[type=submit]:hover {
 }
 
 .topnav {
-  overflow: hidden;
+  display: block; 
   background-color: #333;
-  margin: 0;
+  margin: left;
+  float: left;
+  
   
 }
 
 .topnav a {
-  float: left;
+  float: left; 
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -124,6 +126,52 @@ input[type=submit]:hover {
 
 .topnav .icon {
   display: none;
+}
+
+.mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+    {
+    
+mySidenav a:hover {
+    left: 0; 
+}
+
+Music Projects {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+BandCamp {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+Favorite Photos {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+.wrapper {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+
+.projectone {
+	background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
 
 
