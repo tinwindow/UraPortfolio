@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body{
+	background-color: rgba(51,255,212, 0.5);
+	font-family: 'Roboto Mono', monospace;	
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+h4 { 
+	font-weight:medium; 
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+	text-align: left;
+	margin-top: 75px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.topnav {
+  display: block; 
+  margin: left;
+  float: left;
+  
+  
+}
+
+.topnav a {
+  float: left; 
+  display: block;
+  color: #ff3399;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+li {
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.wrapper {
+  margin: 10px;
+  margin-top: 65px;
+  margin-left: -10px;
+  padding: 1px;
+  background-color: none;
+  box-shadow: 1px 1px 4px #999;
+  
+}
+
+.tiles img {
+  margin; 25px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  
+}
+
+.tiles {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+}
+  
+/* -- .myPageheadings {
+	text-align: center;
+	margin-top: 75px;
+	position: static;
+	display: inline; 
+} --*/  for possible future use instead of difficult headers w inherent properties
+
+
+  
+  
+  
