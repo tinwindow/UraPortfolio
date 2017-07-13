@@ -1,0 +1,5 @@
+document.getElementById('bsaapi').innerHTML = '<a href="//srv.buysellads.com/ads/click/x/GTND4237F6ADKKQNCK7LYKQWF6AIL2QLCYADKZ3JCEAIL27ICYBIVK7KC6BDL5QYFT7DVK3EHJNCLSIZ" target="_blank">Trouble finding an image?: Get 7 days of FREE downloads on GraphicStock! 350,000+ photos, vectors, and more.</a><img src="https://www.launchbit.com/taz-pixel/11382-6924-111" height=1 width=1 border=0 style="display:none">';
+$('body').addClass('bsaapi');
+$('#bsaapi a').click(function () {
+  jsbin.analytics.track('ad', 'click', 'bsa');
+});

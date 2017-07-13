@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" class="bootstrap">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap</title>
+    <!-- Insert bootstrap CSS link here, before your own stylesheets. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bootstrap</h1>
+    <article class="container">
+        <div class="row">
+            <div class="col-md-4" style="color: white; background-color: blue;">
+                Liberty
+            </div>
+            <div class="col-md-4" style="background-color: white;">
+                Equality
+            </div>
+            <div class="col-md-4" style="color: white; background-color: red;">
+                Fraternity
+            </div>
+        </div>
+        <div class="modal-button-container">
+                <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Launch modal
+            </button>
+        </div>
+    </article>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Vive la France!</h4>
+          </div>
+          <div class="modal-body">
+            Bootstrap JavaScript successfully installed.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Include jQuery JavaScript first, then bootstrap JavaScript -->
+    <script src=></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

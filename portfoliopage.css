@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+@media (max-width: 900px){
+  body { background-color: bisque;
+  }
+}
+
 body{
 	background-color: rgba(51,255,212, 0.5);
 	font-family: 'Roboto Mono', monospace;	
@@ -18,19 +23,14 @@ h4 {
 
 h2 {
 	text-align: left;
-	margin-top: 75px;
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
 
 .topnav {
   display: block; 
   margin: left;
   float: left;
+  position: absolute;
   
   
 }
@@ -65,9 +65,10 @@ li {
   margin: 10px;
   margin-top: 65px;
   margin-left: -10px;
-  padding: 1px;
+  padding: 0px;
   background-color: none;
   box-shadow: 1px 1px 4px #999;
+  text-align: center;
   
 }
 
@@ -83,17 +84,44 @@ li {
 }
 
 .tiles {
+  margin-top: 60px;
   display: inline-block;
-  position: relative;
+  position: static;
   width: 30%;
+  text-align: center;
 }
+
+@media (max-width: 239px) and (min-width:100px){
+  .tiles{
+    width:90%;
+  }
+}
+
+@media (max-width: 540px) and (min-width: 240px){
+  .tiles{
+    width:90%;
+  }
+}
+
+@media (min-width: 1000px){
+  .tiles{
+    width: 27%;
+  }
+}
+
+@media (max-width: 999px) and (min-width:541px){
+  .tiles{
+    width: 45%;
+  }
+}
+
+
+
   
-/* -- .myPageheadings {
-	text-align: center;
-	margin-top: 75px;
-	position: static;
-	display: inline; 
-} --*/  for possible future use instead of difficult headers w inherent properties
+
+
+
+
 
 
   
